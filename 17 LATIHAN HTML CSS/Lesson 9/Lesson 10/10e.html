@@ -1,0 +1,97 @@
+<style>
+  body {
+    font-family: Arial;
+  }
+
+  .container {
+    display: inline-flex;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .card {
+    width: 200px;
+    height: 320px;
+    box-shadow: 0px 2px 5px 5px rgb(193, 193, 193);
+  }
+
+  .card img.main-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 0 10px;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+  }
+
+  .mutual {
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .mutual img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  button {
+    margin-top: 5px;
+    background-color: rgb(103, 103, 255);
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 115px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+</style>
+
+<div class="container">
+  <div class="card">
+    <img class="main-img" src="somat.jpg" alt="Oliver">
+    <div class="card-content">
+      <div class="name">Oliver</div>
+      <div class="mutual">
+        <img src="somat.jpg" alt="">
+        <span>2 mutual friends</span>
+      </div>
+      <button>Add Friend</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="main-img" src="somat.jpg" alt="Mimi">
+    <div class="card-content">
+      <div class="name">Mimi</div>
+      <div class="mutual">
+        <img src="somat.jpg" alt="">
+        <span>2 mutual friends</span>
+      </div>
+      <button>Add Friend</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="main-img" src="kawan.jpg" alt="Rex">
+    <div class="card-content">
+      <div class="name">Rex</div>
+      <div class="mutual">
+        <img src="somat.jpg" alt="">
+        <span>2 mutual friends</span>
+      </div>
+      <button>Add Friend</button>
+    </div>
+  </div>
+</div>
